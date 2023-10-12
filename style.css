@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+
+
+
+header{
+    background-color: rgb(118, 167, 241);
+    display:flex;
+    justify-content:space-between;
+    margin: 0px;
+    align-items: center;
+}
+
+
+header h2{
+    font-family: 'Red Hat Display', sans-serif;
+    padding-left: 40px;
+}
+
+
+.inputSearch desktop{
+
+ align-items: center;
+ 
+
+
+
+
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    border-radius: 35px;
+    overflow: hidden;
+    border: 1.5px solid #4361ee;
+    margin-left: 170px;
+
+}
+.inputSearch  input{
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+   
+}
+.inputSearch span{
+    width: 70px;
+    background-color: #4361ee;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin-left: 170px;
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li:hover{
+    color:#4361ee;
+}
+
+.menuBtn{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menuBtn:hover{
+    background-color: #4361ee;
+    color:#ffffff;
+}
+

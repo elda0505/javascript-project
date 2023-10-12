@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>newsweb</title>
+    <link rel = "stylesheet" href = "style.css">
+    <title>Newsweb</title>
 </head>
 <body>
-    
+    <header>
+        <h2>Newsweb</h2>
+
+
+        <div class="inputSearch desktop">
+            <form id="searchForm">
+              <input type="text" placeholder="Type to search..." id="searchInput" />
+              <span> <i class="fa-solid fa-search"></i></span>
+            </form>
+          </div>
+
+        </div>
+        <nav class="desktop">
+          <ul>
+           
+            <li onclick="Search('tech')">Tech</li>
+            <li onclick="Search('food')">Food</li>
+            <li onclick="Search('movies')">Movies</li>
+            <li onclick="Search('business')">Business</li>
+          </ul>
+        </nav>
+  
+        <div class="menuBtn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+       
+
+
+    </header>
 </body>
 </html>
